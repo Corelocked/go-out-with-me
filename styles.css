@@ -1,0 +1,65 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fdebd0; /* Light peach background */
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #e74c3c; /* Red text color */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Soft text shadow */
+    font-size: 36px; /* Larger font size */
+}
+
+.gif {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Round shape for the GIF */
+    border: 5px solid #ffffff; /* White border around the GIF */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.buttons {
+    margin-top: 20px;
+    position: relative;
+    height: 100px;
+    width: 300px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    background-color: #3498db; /* Light blue button background */
+    color: #ffffff; /* White button text color */
+    border: none;
+    border-radius: 20px; /* Round shape for the button */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+#yes-btn {
+    background-color: #2ecc71; /* Light green button for "Yes" */
+}
+
+#no-btn {
+    background-color: #e74c3c; /* Red button for "No" */
+    color: #ffffff; /* White button text color */
+    border: none;
+    border-radius: 20px; /* Round shape for the button */
+    position: absolute;
+}
